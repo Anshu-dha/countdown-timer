@@ -30,3 +30,7 @@ This project can be used for:
 - DOM manipulation
 - Managing multiple dynamic states
 - Clean project structuring
+
+## Preview
+![Project Preview](preview.png)
+
