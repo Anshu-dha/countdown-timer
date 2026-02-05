@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- For background design -->
+  <div class="side-effect shape1"></div>
+  <div class="side-effect shape3"></div>
+  <div class="side-effect shape2"></div>
+  <div class="side-effect shape4"></div>
+  <div class="side-effect shape5"></div>
+
+  <!-- Multi Countdown Timer Container -->
+  <div class="container">
+    <h1><i>Multi Countdown Timer</i></h1>
+    <input type="datetime-local" id="dateInput" />
+    <button id="addCountdownBtn">Add Countdown</button> 
+    <div id="countdownsContainer"></div>
+  </div>
+
+  <div class="container">
+    <h1><i>Countdown Timer</i></h1>
+    <input type="datetime-local" id="datetime" />
+    <button id="startBtn">Start</button>
+    <div class="countdown">
+      <div><span id="days">00</span><p>Days</p></div>
+      <div><span id="hours">00</span><p>Hours</p></div>
+      <div><span id="minutes">00</span><p>Minutes</p></div>
+      <div><span id="seconds">00</span><p>Seconds</p></div>
+    </div>
+    <!-- End message -->
+    <p id="mainEndMessage"></p> 
+  </div>
+
+  <!-- Audio element for sound effect -->
+  <audio id="timerSound" src="sound/bell-323942.mp3"></audio> 
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
+
